@@ -1,0 +1,16 @@
+.internal-links {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.internal-links h1 {
+    display: inline-block;
+}
+
+.internal-links #index{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 150px 75px;
+}

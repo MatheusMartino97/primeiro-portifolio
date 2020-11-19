@@ -1,3 +1,18 @@
 .main {
-    border: solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.main .about {
+    width: 50%;
+}
+
+.logo {
+    width: 30px;
+}
+
+#contact-list {
+    list-style-type:none
 }

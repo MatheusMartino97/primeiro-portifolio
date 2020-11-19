@@ -5,40 +5,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Portfólio</title>
-    
-    <link rel="stylesheet" href="css/header.css"/>
-    <link rel="stylesheet" href="css/main.css">
-    
+
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/footer.css">
   </head>
   <body>
     <header>
-      <div class="intro">
+      <div class="intro" id="intro">
         <h1>Matheus Martino do Amaral</h1>
         <p>Estudante de Desenvolvimento de Software | <strong>Trybe</strong></p>
       </div>
-      <div class="external-links">
+      <div class="external-links" id="external-links">
         <div class="external-link">
-          <a href="https://github.com/MatheusMartino97" target="_blank"><strong>GitHub</strong></a>
+          <a href="https://github.com/MatheusMartino97" target="_blank"
+            ><strong>GitHub</strong></a
+          >
         </div>
         <div class="external-link">
-          <a href="https://www.linkedin.com/in/matheus-martino/" target="_blank"><strong>Linked In</strong></a>
+          <a href="https://www.linkedin.com/in/matheus-martino/" target="_blank"
+            ><strong>Linked In</strong></a
+          >
         </div>
       </div>
-      <div class="trybe-logo">
-        <img id="trybe_logo" src="images/trybe_logo.png" alt="Logo da Trybe"/>
+      <div class="trybe-logo" id="trybe-logo">
+        <a href="https://www.betrybe.com/" target="_blank">
+          <img
+            id="trybe_logo"
+            src="images/trybe_logo.png"
+            alt="Logo da Trybe"
+          />
+        </a>
       </div>
     </header>
 
     <div class="main">
-        <div class="about">
-            
-        </div>
-        <div class="habilities">
-
-        </div>
-        <div class="contact">
-
-        </div>
+      <div class="about" id="about">
+        <h1>Sobre</h1>
+        <p>
+          &emsp;Gosto muito de me comunicar e trabalhar em equipe. Sou
+          apaixonado por desenvolvimento de software e por empresas que usam
+          tecnologia para desenvolver serviços que facilitam a vida das pessoas.
+        </p>
+        <p>
+          &emsp;Meus conhecimentos em física e matemática me proporcionaram
+          habilidades que julgo importantíssimas na área de programação.
+        </p>
+        <p>
+          &emsp;Sou estudante de desenvolvimento de software na Trybe, uma
+          escola que estimula os alunos a trabalharem em equipe, simulando
+          situações reais de trabalho em um time de desenvolvimento.
+        </p>
+        <p>
+          &emsp;Acredito que a boa convivência com colegas de trabalho é tão
+          importante quanto as habilidades técnicas para realizar uma tarefa.
+          Portanto, dou muito valor para soft-skills, pois prezo muito por bons
+          relacionamentos.
+        </p>
+      </div>
+      <div class="habilities" id="habilities">
+        <h1>Competências</h1>
+        <ol>
+          <li>
+            <strong>Habilidades:</strong>
+            <ul>
+              <li>Capacidade analítica</li>
+              <li>Matemática avançada</li>
+              <li>Estratégia</li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            <strong>Tecnologias:</strong>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <br />
+            </ul>
+          </li>
+          <li>
+            <strong>Soft-skills</strong>
+            <ul>
+              <li><em>Liderança</em></li>
+              <li>Resolução de problemas</li>
+              <li>Comunicação assertiva</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+      <div class="contact" id="contact">
+        <h1>Contato</h1>
+        <ul id="contact-list">
+          <li>
+            <img
+              class="logo"
+              src="images/gmail_logo.png"
+              alt="Gmail logo"
+            />&emsp;
+            <em>matheus.martino97@gmail.com</em>
+          </li>
+          <br />
+          <li>
+            <img
+              class="logo"
+              src="images/whatsapp_logo.png"
+              alt="Whatsapp logo"
+            />&emsp;
+            <em>+55 15 99130-9506</em>
+          </li>
+          <br />
+          <li>
+            <img
+              class="logo"
+              src="images/phone_logo.png"
+              alt="Whatsapp logo"
+            />&emsp;
+            <em>15 3384-4487</em>
+          </li>
+          <br />
+          <li>
+            <img
+              class="logo"
+              src="images/facebook_logo.png"
+              alt="Whatsapp logo"
+            />&emsp;
+            <em>
+              <a
+                href="https://www.facebook.com/matheus.martino.5"
+                target="_blank"
+              >
+                Matheus Martino
+              </a>
+            </em>
+          </li>
+        </ul>
+      </div>
     </div>
+
+    <div class="internal-links">
+      <h1>Navegação</h1>
+      <div id="index">
+        <a href="#intro">Introdução</a>
+        <a href="#external-links">Perfis profissionais</a>
+        <a href="#trybe-logo">Be Trybe</a>
+        <a href="#about">Sobre mim</a>
+        <a href="#habilities">Competências</a>
+        <a href="#contact">Contato</a>
+        <a href="#other">Outros links</a>
+      </div>
+    </div>
+    <h1>Outros links</h1>
+    <footer id="other">
+      
+      <div class="insta">
+        <a href="https://www.instagram.com/matheusmrtno/">
+          <img src="images/perfil_pic.jpeg" alt="Foto de perfil">
+        </a>
+      </div>
+      <div class="insta">
+        <a href="https://www.instagram.com/aplloki_/">
+          <img src="images/dogs_pic.jpeg" alt="Foto dos cachorros">
+        </a>
+      </div>
+      <div class="insta">
+        <a href="https://www.instagram.com/umdiasemela/">
+          <img src="images/um_dia_sem_ela_pic.jpeg" alt="Desenho de uma menina sendo abdusida">
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
