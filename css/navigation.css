@@ -12,5 +12,9 @@
     justify-content: space-around;
     align-items: center;
     background-color: lightgray;
-    border-radius: 150px 75px;
+    border-radius: 150px 75px 150px 150px;
+}
+
+#nav {
+    border-radius: 20px 20px 20px 10px;
 }

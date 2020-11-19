@@ -6,18 +6,19 @@
 
     <title>Portfólio</title>
 
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/navigation.css" />
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <header>
-      <div class="intro" id="intro">
+      <div class="intro transparent" id="intro">
         <h1>Matheus Martino do Amaral</h1>
         <p>Estudante de Desenvolvimento de Software | <strong>Trybe</strong></p>
       </div>
-      <div class="external-links" id="external-links">
+      <div class="external-links transparent" id="external-links">
         <div class="external-link">
           <a href="https://github.com/MatheusMartino97" target="_blank"
             ><strong>GitHub</strong></a
@@ -41,7 +42,7 @@
     </header>
 
     <div class="main">
-      <div class="about" id="about">
+      <div class="about transparent" id="about">
         <h1>Sobre</h1>
         <p>
           &emsp;Gosto muito de me comunicar e trabalhar em equipe. Sou
@@ -64,7 +65,7 @@
           relacionamentos.
         </p>
       </div>
-      <div class="habilities" id="habilities">
+      <div class="habilities transparent" id="habilities">
         <h1>Competências</h1>
         <ol>
           <li>
@@ -95,7 +96,7 @@
           </li>
         </ol>
       </div>
-      <div class="contact" id="contact">
+      <div class="contact transparent" id="contact">
         <h1>Contato</h1>
         <ul id="contact-list">
           <li>
@@ -144,7 +145,7 @@
       </div>
     </div>
 
-    <div class="internal-links">
+    <div id="nav" class="internal-links transparent">
       <h1>Navegação</h1>
       <div id="index">
         <a href="#intro">Introdução</a>
@@ -156,24 +157,41 @@
         <a href="#other">Outros links</a>
       </div>
     </div>
+    <div id="div-footer" class="transparent">
     <h1>Outros links</h1>
-    <footer id="other">
-      
-      <div class="insta">
-        <a href="https://www.instagram.com/matheusmrtno/">
-          <img src="images/perfil_pic.jpeg" alt="Foto de perfil">
-        </a>
-      </div>
-      <div class="insta">
-        <a href="https://www.instagram.com/aplloki_/">
-          <img src="images/dogs_pic.jpeg" alt="Foto dos cachorros">
-        </a>
-      </div>
-      <div class="insta">
-        <a href="https://www.instagram.com/umdiasemela/">
-          <img src="images/um_dia_sem_ela_pic.jpeg" alt="Desenho de uma menina sendo abdusida">
-        </a>
-      </div>
-    </footer>
+    
+      <footer id="other">
+        <div class="insta">
+          <figure>
+            <a href="https://www.instagram.com/matheusmrtno/" target="_blank">
+              <img src="images/perfil_pic.jpeg" alt="Foto de perfil" />
+              <figcaption>Clique aqui para acessar meu instagram</figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class="insta">
+          <figure>
+            <a href="https://www.instagram.com/aplloki_/" target="_blank">
+              <img src="images/dogs_pic.jpeg" alt="Foto dos cachorros" />
+              <figcaption>
+                Acesse também o instagram dos meus doguinhos
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class="insta">
+          <figure>
+            <a href="https://www.instagram.com/umdiasemela/" target="_blank">
+              <img
+                src="images/um_dia_sem_ela_pic.jpeg"
+                alt="Desenho de uma menina sendo abdusida"
+              />
+              <figcaption>Um insta de desenhos que sou muito fã!</figcaption>
+            </a>
+          </figure>
+        </div>
+      </footer>
+    </div>
+    
   </body>
 </html>
