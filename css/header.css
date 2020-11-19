@@ -1,0 +1,43 @@
+div, header {
+    border: solid black;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro {
+    display: inline-block;
+    text-align: center;
+    border: solid black;
+}
+
+.intro h1 {
+    color: dimgray;
+}
+
+.intro p {
+    color: darkolivegreen;
+}
+
+.intro strong {
+    color: green;
+}
+
+.external-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    background-color: lightgray;
+    border-radius: 150px 75px;
+}
+
+.external-links .external-link {
+    font-size: x-large;
+}
+
+#trybe_logo {
+    height: 150px;
+}
