@@ -13,6 +13,19 @@
   width: 30px;
 }
 
+.margin-top {
+  margin-top: 10px;
+}
+
+.size_large {
+  font-size: large;
+}
+
+.size_larger {
+  font-size: larger;
+}
+
+
 #contact-list {
   list-style-type: none;
 }

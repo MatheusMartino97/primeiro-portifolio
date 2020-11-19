@@ -10,6 +10,7 @@ header {
 
 .intro h1 {
   color: darkslategray;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .intro p {
