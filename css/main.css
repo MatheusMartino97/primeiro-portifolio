@@ -16,3 +16,7 @@
 #contact-list {
     list-style-type:none
 }
+
+em, li {
+    padding-right: 10px;
+}
