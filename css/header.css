@@ -1,40 +1,39 @@
 header {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .intro {
-    display: inline-block;
-    text-align: center;
-
+  display: inline-block;
+  text-align: center;
 }
 
 .intro h1 {
-    color: darkslategray;
+  color: darkslategray;
 }
 
 .intro p {
-    color: rgb(25, 36, 6);
+  color: rgb(25, 36, 6);
 }
 
 .intro strong {
-    color: rgb(0, 70, 0);
+  color: rgb(0, 70, 0);
 }
 
 .external-links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 30%;
-    border-radius: 150px 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  border-radius: 150px 75px;
 }
 
 .external-links .external-link {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 #trybe_logo {
-    height: 150px;
-    border-radius: 20px;
-    margin: 10px;
+  height: 150px;
+  border-radius: 20px;
+  margin: 10px;
 }
