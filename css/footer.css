@@ -18,7 +18,7 @@ footer {
   height: 200px;
 }
 
-figure {
+footer figure {
   display: inline-block;
   background: linear-gradient(
     45deg,

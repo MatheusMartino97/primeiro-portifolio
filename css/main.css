@@ -25,7 +25,6 @@
   font-size: larger;
 }
 
-
 #contact-list {
   list-style-type: none;
 }
@@ -35,15 +34,24 @@ li {
   padding-right: 10px;
 }
 
+#contact-list li {
+  margin: 15px 0;
+}
+
+#about,
+#habilities,
+#contact {
+  height: 438.875px;
+}
+
 @media (max-width: 780px) {
-
-
   #contact em {
     font-size: small;
   }
-  
 
-  #about, #habilities, #contact {
+  #about,
+  #habilities,
+  #contact {
     width: 95%;
   }
 }

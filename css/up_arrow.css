@@ -1,12 +1,17 @@
 #to-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 #up-arrow {
-    width: 50px;
-    border-radius: 50%;
-    opacity: 70%;
-    margin: 10px;
+  width: 50px;
+  border-radius: 50%;
+  opacity: 50%;
+}
+
+#figure-to-top {
+  padding: 20px;
+  border-radius: 30px;
 }
