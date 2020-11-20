@@ -39,3 +39,9 @@ header {
   border-radius: 20px;
   margin: 10px;
 }
+
+@media (max-width: 780px) {
+  .external-link strong {
+    font-size: medium;
+  }
+}
