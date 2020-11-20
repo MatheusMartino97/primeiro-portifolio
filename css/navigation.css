@@ -19,3 +19,7 @@
   border-radius: 20px;
   padding: 10px;
 }
+
+#nav a {
+  padding: 5px 5px;
+}

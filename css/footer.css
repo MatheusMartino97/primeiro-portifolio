@@ -30,3 +30,9 @@ figure {
   padding: 20px;
   border-radius: 30px;
 }
+
+@media (max-width: 780px) {
+  .insta img {
+    width: 200px;
+  }
+}

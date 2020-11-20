@@ -34,3 +34,12 @@ em,
 li {
   padding-right: 10px;
 }
+
+@media (max-width: 780px) {
+
+  
+
+  #about, #habilities, #contact {
+    width: 95%;
+  }
+}
