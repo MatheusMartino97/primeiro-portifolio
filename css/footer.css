@@ -32,8 +32,13 @@ footer figure {
   border-radius: 30px;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 905px) {
   .insta img {
     width: 200px;
   }
+
+  .insta figure {
+    width: 200px;
+  }
+
 }
