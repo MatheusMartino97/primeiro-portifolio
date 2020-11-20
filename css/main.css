@@ -37,6 +37,10 @@ li {
 
 @media (max-width: 780px) {
 
+
+  #contact em {
+    font-size: small;
+  }
   
 
   #about, #habilities, #contact {
